@@ -1,0 +1,35 @@
+//- Homepage Markup
+extends ./layouts/base
+
+block content
+	.container
+		.background
+			h1 The Next Big Thing
+			
+	.section
+		.container#side-slide-effects
+			.slide-right(data-0="left: -200px;" data-100="left: 300px;") Thing that slides in from the left
+			.slide-left(data-0="left: 1200px;" data-100="left: 0px;") thing that should slide in from left
+		
+		section
+		
+		.container#filler This area will have an animated svg 
+			
+		.container
+			#phone-container
+				.iphone-front
+				p Of course it's available on iphone
+				.iphone-back
+		.container
+			#android-container
+				.iphone-front
+				p And android.
+				p Because we're not g*d*m savages
+				.iphone-back
+			
+		
+		.container b/c this joint is mobile FIRST. 
+			p And responsive, unlike your ex.
+			
+		.parallax
+			p It's so good, it actually warrants a parallax effect. So get scrolling. 

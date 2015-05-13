@@ -8,7 +8,8 @@
     "normalize.css": "~3.0.1",
     "jquery": "~1.11.1",
     "skrollr": "~0.6.29",
-    "waypoints": "~3.1.1"
+    "waypoints": "~3.1.1",
+    "bootstrap": "*"
   },
   "devDependencies": {
     "skrollr": "~0.6.29",

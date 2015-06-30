@@ -9,10 +9,11 @@
     "jquery": "~1.11.1",
     "skrollr": "~0.6.29",
     "waypoints": "~3.1.1",
-    "bootstrap": "*"
+    "bootstrap": "~3.1.1"
   },
   "devDependencies": {
     "skrollr": "~0.6.29",
-    "waypoints": "~3.1.1"
+    "waypoints": "~3.1.1",
+    "bootstrap": "~3.1.1"
   }
 }

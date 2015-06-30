@@ -4,8 +4,7 @@ extends ./layouts/base
 block content
 	.container
 		.background
-			h1 The Next Big Thing
-			
+			h1 The Next Big Thing		
 	.section
 		.container#side-slide-effects
 			.slide-right(data-0="left: -200px;" data-100="left: 300px;") Thing that slides in from the left
@@ -14,28 +13,31 @@ block content
 		section
 			.container.pricing Check out our tiered pricing. 
 				p It's guaranteed to make you buy something
-				span.card.col-md-3
-					h4 El Cheapo
-					.snide (You could do better)
-					ul 
-						li $3.99 / month
-						li Only works on IE
-						li Built using two monkeys
-				span.card.col-md-3
-					h4 Medicore
-					.snide (but not terrible)
-					ul 
-						li $6.99 / month
-						li Uses AJAX technology
-						li Mobile Friendly!
-						li Necessary for a lean startup
-				span.card.col-md-3
-					h4 You only buy the best
-					.snide (you sexy beast)
-					ul 
-						li $9.99 / month
-						li Uses react, angular, polymer, AND backbone
-						li Powered by the tears of rockstar developers
+
+				.container-fluid
+					.row
+						.card.col-md-3
+							h4 El Cheapo
+							.snide (You could do better)
+							ul 
+								li $3.99 / month
+								li Only works on IE
+								li Built using two monkeys
+						.card.col-md-3
+							h4 Medicore
+							.snide (but not terrible)
+							ul 
+								li $6.99 / month
+								li Uses AJAX technology
+								li Mobile Friendly!
+								li Necessary for a lean startup
+						.card.col-md-3
+							h4 You only buy the best
+							.snide (you sexy beast)
+							ul 
+								li $9.99 / month
+								li Uses react, angular, polymer, AND backbone
+								li Powered by the tears of rockstar developers
 			
 		.container#filler This area will have an animated svg 
 			h3 tab based setup that has
